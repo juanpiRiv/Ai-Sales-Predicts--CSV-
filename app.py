@@ -30,8 +30,9 @@ except Exception as gemini_error:
 
 
 # --- Funciones Auxiliares ---
+@st.cache_data
 def clean_data(df):
-    """Limpia y prepara los datos: maneja valores nulos."""
+    """Clean and prepare data with caching for better performance"""
     for col in df.columns:
         if df[col].isnull().any():
             if pd.api.types.is_numeric_dtype(df[col]):
