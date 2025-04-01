@@ -1,5 +1,11 @@
 # Dashboard Interactivo de Predicciones de Ventas IA
 
+
+##Documento Proyecto MVP
+https://docs.google.com/document/d/1emzHwUjF7GsqQfoK5OA_AOE4qag3XqfMRm0EzgnxEWs/edit?usp=sharing
+##Csv usado para pruebas
+https://docs.google.com/spreadsheets/d/1Yxr4YKygucmGel8iIFTtNp_Udn25Y9nbhKUvp4V3MAQ/edit?usp=sharing
+
 Este proyecto es una aplicación web interactiva construida con Streamlit que permite a los usuarios cargar sus propios datos de ventas (en formato CSV), explorar visualizaciones de los datos, realizar análisis de descomposición de series temporales y generar predicciones utilizando los modelos Prophet y ARIMA.
 
 La aplicación también integra la API de Google Gemini para generar resúmenes e interpretaciones de los datos y los resultados de los modelos (si se configura una clave API).
